@@ -1,0 +1,69 @@
+
+* {
+	box-sizing: border-box;
+}
+
+
+h1{
+	text-align: center;
+}
+
+span{
+	float: right;
+	border: 2px solid;
+	padding: 2px;
+
+}
+
+p{
+	font-family: helvetica;
+	padding: 10px;
+}
+#potato{
+	background-color: red;
+}
+
+#tomato{
+	background-color: cyan;
+}
+
+#onion{
+	background-color: yellow;
+}
+
+.main-box{
+	margin-left: 20px;
+}
+
+.dbox {
+	float: left;	
+	margin-top: 15px;
+    margin-left:15px;
+    margin-bottom: 15px;
+  
+	border: 2px solid black;
+	background-color: pink;
+}
+
+
+@media (min-width: 992px) {
+	.dbox{
+		width:30%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .dbox {
+    width:40%;
+  }
+  .third{
+  	width:80%;
+  }
+}
+
+@media(max-width: 767px){
+	.dbox{
+		width: 75%;
+	}
+}
+
